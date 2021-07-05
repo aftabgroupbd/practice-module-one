@@ -1,0 +1,64 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.flaxable{
+    display: flex;
+
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+.top-section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.top-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.btn{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.btn-primary{
+    background-image: linear-gradient(#18d7d4,#3c95f8);
+}
+.btn-success{
+    background-image: linear-gradient(#5962de,#7b32d8);
+}
+.about-section{
+    align-items: center;
+}
+.work-box{
+    width:30%;
+    display: inline-block;
+}
+.work-box img{
+    width: 100%;
+}
+.talk-section{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.talk-section h1{
+    font-size: 40px;
+}
+footer{
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
